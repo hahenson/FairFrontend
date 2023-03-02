@@ -1,15 +1,25 @@
 
 
-function SingIn(){
+
+function SignIn(){
 
   return(
     <div>
       <h1>Welcome Back</h1>
+      <div>
+      <label>Username: </label>&nbsp;&nbsp;
+      <input type="text" />
+      </div>
+      <br></br>
+      <div>
+      <label>Password: </label>&nbsp;&nbsp;
+      <input type="text" />
+      </div>
     </div>
   );
 }
 
-export default SingIn;
+export default SignIn;
 
 
 
